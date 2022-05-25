@@ -1,0 +1,121 @@
+
+#wrapper{
+
+}
+
+#header{
+
+}
+
+#main{
+
+}
+
+#main ul{
+    background-color: aquamarine;
+}
+
+#main ul li{
+
+
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px #fff solid;
+
+}
+
+
+#container{
+
+    width: 95%;
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
+#cl {
+    background-color: black;
+}
+#cr {
+    background-color: blue;
+}
+
+#pic1{
+    height: 150px;
+    background-color: violet;
+
+}
+
+#pic2{
+    height: 150px;
+    background-color: tomato;
+
+}
+
+#news1{
+    height: 150px;
+    background-color: greenyellow;
+ 
+}
+#news2{
+    height: 150px;
+    background-color: salmon;
+  
+}
+#news3{
+    height: 150px;
+    background-color: green;
+   
+}
+
+#footer {
+    background-color: aqua;
+    text-align: center;
+    /*
+    position: bottom;
+    */
+    bottom: 0;
+    
+    position: fixed;
+    /* 2022.05.24.Peter用 fixed 搭配 bottom : 0 , 是最好的狀況!
+    position: absolute;
+    */
+    width: 100%;
+    
+}
+
+.cf {
+    clear: both;
+}
+
+@media only screen and (min-width:601px){
+
+    #main ul li{
+
+        width: 15%;
+        display: block;
+        float: left;
+
+        border-right: 2px solid #333;
+
+        text-align: center;
+    }
+
+    #pic1 {
+        
+        width: 50%;
+        float: left;
+        background-color: blanchedalmond;
+    }
+
+    #pic2 {
+        width: 49%;
+        float: right;
+        background-color: chocolate;
+    }
+
+    #footer {
+
+        background-color: coral;
+    }
+    
+}
